@@ -8,5 +8,5 @@ model.eval()
 def analyze_text_with_model(sentence: str):
     return model.predict([sentence], tokenizer, output_style='json')
 
-# sentence = 'מצאתי שקית עם גרביים שרשום עליה כהן'
-# print() # see below for other return formats
+
+ 

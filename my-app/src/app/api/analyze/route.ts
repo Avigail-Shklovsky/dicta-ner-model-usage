@@ -12,7 +12,7 @@ export async function POST(request: NextRequest) {
       text,
     });
 
-    // Return the analysis result
+  
     return NextResponse.json(response.data);
   } catch (error: unknown) {
     console.log(error);
